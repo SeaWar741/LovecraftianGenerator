@@ -1,0 +1,6 @@
+server/__pycache__
+gpt-2-frontend/node_modules
+server/checkpoint
+server/checkpoint_run3.tar
+models/124M
+frontend/node_modules
