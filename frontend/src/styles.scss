@@ -5,6 +5,11 @@
   font-family: "IBM Plex Mono", monospace !important;
 }
 
+@font-face {
+  font-family: LoveCraft;
+  src: url(./LoveCraft.otf);
+}
+
 html,
 body,
 #root {
@@ -12,14 +17,41 @@ body,
   padding: 0 !important;
   width: 100%;
   height: 100%;
-  color: rgba(0, 0, 0, 0.8);
+  color: whitesmoke;
+
+  /* Location of the image */
+  /*background-image: url(/img/8.png);*/
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn’t tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn’t move when
+  the content’s height is greater than the image’s height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+  on the container’s size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+  while the background image is loading */
+  background-color: black;
+
+}
+
+.mainTitle{
+  font-family: LoveCraft !important;
+  letter-spacing: 0.2em;
+  text-Align: center
 }
 
 .app-container {
   padding-top: 4rem;
-  padding-bottom: 5rem;
+  
   width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

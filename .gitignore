@@ -4,3 +4,4 @@ server/checkpoint
 server/checkpoint_run3.tar
 models/124M
 frontend/node_modules
+frontend/public/img

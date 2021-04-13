@@ -4,7 +4,7 @@ import React from 'react';
 
 const Button = ({ onClick }) => (
     <MaterialButton
-        style={{ marginTop: '1em', width: 'fit-content' }}
+        style={{ marginTop: '1em', width: 'fit-content' ,color:'white'}}
         onClick={onClick}
         variant="outlined"
         color="primary">
